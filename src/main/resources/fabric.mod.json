@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "toggleheadlayer",
+  "version": "${version}",
+  "name": "ToggleHeadLayer",
+  "description": "Toggle your head layer with a hotkey.",
+  "authors": [
+    "bennet0904"
+  ],
+  "contact": {
+    "repo": "https://github.com/bennet0904/ToggleHeadLayer"
+  },
+  "license": "GPL-3.0-or-later",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "org.bennet0904.toggleheadlayer.ToggleHeadLayerMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
